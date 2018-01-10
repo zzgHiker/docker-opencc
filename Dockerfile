@@ -1,9 +1,5 @@
 FROM node
 
-RUN npm --version
-
-RUN node --version
-
 RUN mkdir -p /home/Service
 WORKDIR /home/Service
 
